@@ -35,7 +35,7 @@ const VersusQuestionScreen = ({ navigation, route }) => {
 
     return (
         <View style={styles.container}>
-            <Image source={require('../assets/img/image2.png')} style={{marginBottom: 20}} />
+            <Image source={require('../assets/img/image2.png')} style={{marginBottom: 20}}/>
             <Text style={styles.turnText}>{currentPlayer}'s Turn</Text>
             <Text style={styles.counter}>Question {currentQuestion + 1}/{questions.length}</Text>
             <View style={styles.questionBox}>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#0554AB',
         padding: 20,
-        paddingTop: 60,
+        paddingTop: 20,
     },
     turnText: {
         color: 'white',

@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#1D52B4',
         alignItems: 'center',
         padding: 20,
-        paddingTop: 60,
+        paddingTop: 20,
     },
     logo: {
         color: 'white',

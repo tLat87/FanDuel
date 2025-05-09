@@ -90,13 +90,13 @@ const QuestionScreen = ({navigation}) => {
 
     return (
         <View style={styles.container}>
-            <View style={{flexDirection: 'row', position: 'absolute', top: 80, alignItems: 'center', width: '100%', justifyContent: 'center'}}>
-                <TouchableOpacity onPress={() => navigation.goBack()} style={{position: 'absolute', left: 0}}>
-                    <Image source={require('../assets/img/mynaui_arrow-up.png')} />
-                </TouchableOpacity>
+            {/*<View style={{flexDirection: 'row', position: 'absolute', top: 80, alignItems: 'center', width: '100%', justifyContent: 'center'}}>*/}
+            {/*    <TouchableOpacity onPress={() => navigation.goBack()} style={{position: 'absolute', left: 0}}>*/}
+            {/*        <Image source={require('../assets/img/mynaui_arrow-up.png')} />*/}
+            {/*    </TouchableOpacity>*/}
 
-            </View>
-            <View style={{marginTop: 70}}>
+            {/*</View>*/}
+            <View style={{marginTop: 0}}>
                 <Image source={require('../assets/img/image2.png')} resizeMode={'cover'} />
             </View>
 
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#0554AB',
         padding: 20,
-        paddingTop: 60,
+        paddingTop: 20,
     },
     questionCounter: {
         fontSize: 18,

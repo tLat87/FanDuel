@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     button: {
         backgroundColor: 'white',
         borderRadius: 10,
-        paddingVertical: 35,
+        paddingVertical: '5%',
         paddingHorizontal: 40,
         marginVertical: 10,
         width: '100%',
@@ -74,8 +74,8 @@ const styles = StyleSheet.create({
         fontWeight: '600',
     },
     bottomIcon: {
-        position: 'absolute',
-        bottom: 30,
+        // position: 'absolute',
+        // bottom: 30,
         backgroundColor: 'white',
         padding: 12,
         borderRadius: 12,
